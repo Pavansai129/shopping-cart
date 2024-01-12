@@ -1,0 +1,53 @@
+Week-1 L-2 Assignment
+
+1. You are tasked with building a shopping cart for an eCommerce store with the following functionalities:
+	1.Add to Cart
+	2.Remove from Cart
+	3.Total Price
+	4.Calculate Average Price
+	5.Filter Products
+	6.Sort Cart
+	7.Clear Cart
+
+
+-->	START
+
+	OPEN browser
+	download required images to display in the web page and save them in a folder called assests 
+	CLOSE browser
+
+	OPEN code editor
+	create neccessary files  to write the code which are used to display the content on the webpage 
+		1. assests folder which will have the downloded images
+		2. index.html to structure the website
+		3. index.css to style the website
+		4. index.js to provide functionality to the website
+	write the code to structure the website in the required file in required format(eg: index.html)
+	write the code to style the website in the required file in required format(eg: index.css)
+	create some data (eg: json data) in  required file (eg: index.js) which is having key and value pairs in 	the following format
+		1. id which will take a unique positive number,
+		2. name will have the value of a unique name for each pair,
+		3. image will have a url(eg: give path of the image which is stored in the folder along with the 	remaing code file),
+		4. price will have number and currency symbol,
+ 		5. quantity will have a number greater than 1
+	write the functionality used to interact with the website in the required file( eg: index.js)
+	WHILE LOOP(web page creation is not comleted with structure AND styling AND functionality)
+		IF(structuring the website is incomplete) 
+			complete the structuring process by updating the code in the required file in required 				format(eg: index.html)
+		IF(styling the website is incomplete) 
+			complete the styling process by updating the code in the required file in required 	format(eg: 			index.html)
+		IF(functionality of the website is not complete)
+			check every line of code and update the required functionality in required file in required 			format(eg: index.js) 
+		END IF
+		SAVE the files for each check
+	END WHILE LOOP
+	CREATE a repository in git hub 
+	push the code to git hub
+	CLOSE code editor(eg: vs code)
+
+	END
+	
+		
+	
+	
+
