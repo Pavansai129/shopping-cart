@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="products-and-cart-page">
+      <h1 class="products-title">Our Products</h1>
+      <ul id="productCardsSection"></ul>
+      <hr class=".horizontal-ruler" />
+      <section id="cartSection">
+        <div class="cart-section-controls-container">
+          <div class="filter-search">
+            <input
+              type="text"
+              placeholder="Enter the amount"
+              class="input-container"
+            />
+            <button><i class="fa-solid fa-filter"></i></button>
+          </div>
+          <button id="clearCart" class="clear-cart">
+            Clear Cart <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <h1 class="cart-title">Cart</h1>
+        <ul id="cartProducts"></ul>
+        <div id="cartSummry"></div>
+      </section>
+    </section>
+    <script type="text/javascript" src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/92e93a5d14.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
